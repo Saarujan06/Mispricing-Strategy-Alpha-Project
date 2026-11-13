@@ -1,0 +1,3 @@
+Look-ahead test: rebuild from data ending 201012, compare 168 months (199701-201012) with the full run.
+  same months: True; largest absolute difference in returns, costs, turnover and holdings: 4.44e-16
+  RESULT: PASS - no information from after the cut-off is used in earlier decisions.

@@ -1,0 +1,12 @@
+work/
+__pycache__/
+*.pyc
+.DS_Store
+# raw WRDS data must not be committed (too large for GitHub, and licensed)
+*.csv.gz
+!factors/*.csv.gz
+CRSP_MonthlyDataStock*.csv
+Compustat_Fundamental_Annuals*.csv
+paper/*.aux
+paper/*.log
+paper/*.out
